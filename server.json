@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ae.brainy/grocery-prices",
+  "title": "Brainy Prices — UAE Cost of Living",
+  "description": "Source-backed UAE costs: groceries, schools, housing, transport, utilities, telecom and relocation",
+  "version": "2.0.0",
+  "websiteUrl": "https://prices.brainy.ae/developers.html",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://prices.brainy.ae/mcp/v2"
+    }
+  ]
+}
